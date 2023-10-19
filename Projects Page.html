@@ -25,27 +25,53 @@
 	<!--C++ SECTION-->
 	<button class = "accordion">C++</button>
 		<div class = "panel">
-		<div class = "project_entry">
-			<div class = "left_article" style="min-height: 0px;">
-				<h1>Path of Exile</h1>
-				<p>Path of Exile is a massively complex loot driven multiplayer Action RPG produced by Grinding Gear Games in New Zealand. I began working there as a C++ gameplay programmer and helped shipped 4 major expansions: <a href="https://www.pathofexile.com/exilecon/three" target="_blank">Metamorph</a>, <a href="https://www.pathofexile.com/delirium" target="_blank">Delirium</a>, <a href="https://www.pathofexile.com/harvest" target="_blank">Harvest</a>, and <a href="https://www.pathofexile.com/heist" target="_blank">Heist</a>. I worked on a lot of things (too many to list here), but notably I'm quite proud of reworking <a href="https://www.pathofexile.com/forum/view-thread/2870970" target="_blank">warcries</a>, implementing all the <a href="https://www.pathofexile.com/forum/view-thread/2874544" target="_blank">crafting</a> options for the Harvest, as well implementing every new and reworked <a href="https://www.pathofexile.com/forum/view-thread/2934377" target="_blank">skill</a> in the Heist challenge league.</p>
-				<p> Check out our website <a href="https://pathofexile.com" target="_blank">here</a>!
-				</p>
-			</div>
-			
-			<div class="right_article" style="min-height: 0px;">
-				<div id = "poECarousel" class = "carouselContainer">
-					<em>Too small? Click the image!</em>
-					<img class = "carousel" src="images/Projects/PoE.jpg" alt = "PoE.jpg">
+			<div class = "project_entry">
+				<div class = "left_article" style="min-height: 0px;">
+					<h1>Destiny 2</h1>
+					<p>I am currently working with Bungie on the definitive action MMO Destiny 2 where I have helped ship 4 annual expansions. See my Work History page for more details.
+					</p>
+				</div>
+				
+				<div class="right_article" style="min-height: 0px;">
+					<div id = "destiny2Carousel" class = "carouselContainer">
+						<em>Too small? Click the image!</em>
+						<img class = "carousel" src="images/Projects/destiny-2.jpg" alt = "destiny-2.jpg">
+						<img class = "carousel" src="images/Projects/destiny-2-final-shape.jpg" alt = "destiny-2-the-final-shape.jpg">
+						<img class = "carousel" src="images/Projects/destiny-2-lightfall.jpg" alt = "destiny-2-lightfall.jpg">
+						<img class = "carousel" src="images/Projects/destiny-2-witch-queen.jpg" alt = "destiny-2-witch-queen.jpg">
+						<img class = "carousel" src="images/Projects/destiny-2-beyond-light.jpg" alt = "destiny-2-beyond-light.jpg">
 
-					<button class = "carouselPrevButton" onClick="PoECarousel.prev()">&lt</button>
-					<button class = "carouselNextButton" onClick="PoECarousel.next()">&gt</button>
-					
-					<div onClick="PoECarousel.changeSize()"></div>
+						<button class = "carouselPrevButton" onClick="Destiny2Carousel.prev()">&lt</button>
+						<button class = "carouselNextButton" onClick="Destiny2Carousel.next()">&gt</button>
+						
+						<div onClick="Destiny2Carousel.changeSize()"></div>
+					</div>
+				</div>
+				<div style = "clear:both"></div>
+				<hr>
 			</div>
-		</div>
-		<div style = "clear:both"></div>
-		<hr>
+
+			<div class = "project_entry">
+				<div class = "left_article" style="min-height: 0px;">
+					<h1>Path of Exile</h1>
+					<p>Path of Exile is a massively complex loot driven multiplayer Action RPG produced by Grinding Gear Games in New Zealand. I began working there as a C++ gameplay programmer for 1 year and helped shipped 4 major expansions! See my Work History page for more details.
+					</p>
+				</div>
+				
+				<div class="right_article" style="min-height: 0px;">
+					<div id = "poECarousel" class = "carouselContainer">
+						<em>Too small? Click the image!</em>
+						<img class = "carousel" src="images/Projects/PoE.jpg" alt = "PoE.jpg">
+
+						<button class = "carouselPrevButton" onClick="PoECarousel.prev()">&lt</button>
+						<button class = "carouselNextButton" onClick="PoECarousel.next()">&gt</button>
+						
+						<div onClick="PoECarousel.changeSize()"></div>
+					</div>
+				</div>
+				<div style = "clear:both"></div>
+				<hr>
+			</div>
 		</div>
 	</div>
 
@@ -404,12 +430,11 @@
 		<ul>
 			<li><a href="https://www.linkedin.com/in/skyler-hektner-2b4306137/" target="_blank"><img src="images/LinkedIn Logo.png" alt="LinkedIn"></a></li>
 			<li><a href="https://github.com/SkylerHektner" target="_blank"><img src="images/GitHub Logo.jpg" alt="GitHub"></a></li>
-			<li><a href="https://www.facebook.com/shektner?ref=bookmarks" target="_blank"><img src="images/Facebook Logo.png" alt="Facebook"></a></li>
 		</ul>
 	</div>
 	
 	<div class="footer">
-		&copy 2018 - <strong>Skyler Hektner</strong>
+		&copy 2023 - <strong>Skyler Hektner</strong>
 	</div>
 	
 	<div id="CarouselCurtain"></div>
@@ -430,6 +455,7 @@
 		var PoECarousel = new Carousel("poECarousel");
 		var FlowCarousel = new Carousel("flowCarousel");
 		var DolbyCarousel = new Carousel("dolbyCarousel");
+		var Destiny2Carousel = new Carousel("destiny2Carousel");
 	</script>
 	<script src="js/Accordion.js"></script>
 </body>
